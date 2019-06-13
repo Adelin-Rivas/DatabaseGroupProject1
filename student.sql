@@ -4,10 +4,10 @@
 
 CREATE TABLE public."Student"
 (
-    "studentLastName" character(40) COLLATE pg_catalog."default" NOT NULL,
-    "StudentLastName" character(40)[] COLLATE pg_catalog."default" NOT NULL,
-    email character(40)[] COLLATE pg_catalog."default" NOT NULL,
-    "imagUrl" character(100) COLLATE pg_catalog."C" DEFAULT 'allocate url'::bpchar,
+    "studentLastName" varchar(40) COLLATE pg_catalog."default" NOT NULL,
+    "StudentLastName" varchar(40) COLLATE pg_catalog."default" NOT NULL,
+    email varchar(40) COLLATE pg_catalog."default" NOT NULL,
+    "imagUrl" varchar(100) COLLATE pg_catalog."C" DEFAULT 'allocate url'::bpchar,
     "studentId" integer NOT NULL,
     "studentGpa" double precision,
     "campusId" integer NOT NULL,

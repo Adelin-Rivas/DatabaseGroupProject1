@@ -18,3 +18,8 @@ TABLESPACE pg_default;
 
 ALTER TABLE public.campus
     OWNER to postgres;
+	
+	
+	
+	
+	
